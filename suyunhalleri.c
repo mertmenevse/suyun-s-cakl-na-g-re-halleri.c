@@ -9,7 +9,7 @@ int main(){
 	if(sicaklik<0){
 		printf("Suyun sicakligi %d ve kati haldedir.",sicaklik);
 	}
-	else if(0<sicaklik<100){
+	else if(0<sicaklik && sicaklik<100){
 		printf("Suyun sicakligi %d ve sivi haldedir.",sicaklik);
 	}
 	else{
